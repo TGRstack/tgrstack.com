@@ -2,122 +2,101 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# TGRStack (Typescript GraphQL React)
+[![TypeScript](https://img.shields.io/badge/TypeScript-2.8.3-blue.svg?style=flat-square)](https://github.com/Microsoft/TypeScript)
+[![styled with TSLint](https://img.shields.io/badge/styled_with-TSLint-ff69b4.svg?style=flat-square)](https://github.com/palantir/tslint/)
+[![WebPack](https://img.shields.io/badge/WebPack-4.5.0-blue.svg?style=flat-square)](https://github.com/Microsoft/TypeScript)
+[![Node](https://img.shields.io/badge/Node-8.11.2-blue.svg?style=flat-square)](https://github.com/Microsoft/TypeScript)
 
-[Link to another page](./another-page.html).
+[![NPS friendly](https://img.shields.io/badge/NPS-friendly-brightgreen.svg?style=flat-square)](https://github.com/kentcdodds/nps)
+[![Commitizen friendly](https://img.shields.io/badge/Commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Semver friendly](https://img.shields.io/badge/SemVer-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 
-There should be whitespace between paragraphs.
+This site is the collection point for 4 projects [Falieson](www,github.com/falieson) has released or is in the process of releasing.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+These projects are all starter-kits that use a common set of utilities and patterns that are designed for a pleasant and productive scalable developer experience. The core technologies for these projects are 2018's "state of the art" for javascript; these are: **_TypesScript_**, **_GraphQL_**, and **_React_**. Combined these libraries form the cornerstone for a full-stack web development experience that is hardened against bugs and trains developers of all experience-levels to write efficient code.
 
-# Header 1
+{% if site.feedback_url %}
+  <a href="{{ site.feedback_url }}" class="btn">Send TGR Feedback</a>
+{% endif %}
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Features
 
-## Header 2
+### Core
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+- :rocket: ES2018+ support syntax that is stage-3 or later in the TC39 process.
+- :fire:  Hot development restarts dev-server when your src changes
+- :control_knobs:  Preconfigured to support development and optimized production builds
+- :notes:  `typescript` incremental returns reducing development bugs
+- :vertical_traffic_light:  `tslint` configured for strict, consistent, code style
 
-### Header 3
+### Tests
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+- :performing_arts: `jest` as the test framework.
+- :performing_arts: `ts-jest` configured to test TS files, uses tsconfig.jest.json, and skip babel.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Build (w/ Webpack)
 
-#### Header 4
+- :package:  All source is bundled using Webpack v4
+- :star2:  webpack merge, splitting config for dev, prod, common
+- :vertical_traffic_light:   ts-loader for compiling typescript
+- :sweat_drops:  babel-loader for additional polyfills (browser support)
+- :sunglasses:  HappyPack for multi-core building
+- :robot:  Auto generated Vendor DLL for smooth development experiences
+- :leaves:  Tree-shaking
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+### Utils
 
-##### Header 5
+- :video_game:  `nps` node-package-scripts removes the limitation of package.json enabling JS & //comments .  Modify `/package-scripts.js` and use `nps <command>` instead of `npm run <command>`.
+- :raised_hands:  `commitizen` to help us generate beautifully formatted and consistent commit messages.
+- :joy_cat:  `cz-emoji` is a plugin for commitizen that adds emoji to the commit template.
+- :trophy:  `standard-version` is a replacement for `npm version` with automatic CHANGELOG generation
+- :white_check_mark:  `validate-commit-msg` validates commit messages to follow commitizen patterns
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## Comparison and Progress
+[Spreadsheet Comparison](https://docs.google.com/spreadsheets/d/1bwTX1OGK3sYrHuOE60HCpxQbccWZ8gmDVpYG2AvacrA/edit?usp=sharing) - Pick a Topic to comment on or select an empty row to add a topic
 
-###### Header 6
+With this list you can see how far I've gotten in my development directories. **Expect the github repos to be a little bit behind this spreadsheet; especially at first as I ramp up on publishing writeups about each major stage.**
+~ Falieson 2018-05-30
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## Timeline
 
-### There's a horizontal rule below this.
+I am releasing the code incrementally throughout June 2018. Each major branch comes with a tutorial explaining the major advancements so you can understand how these were built.
 
-* * *
+(year-week) \<goal>
+- 2018-22: 
+- 
 
-### Here is an unordered list:
+# Typescript-Module
+{% include downloads.html repo_url='https://github.com/Falieson/2018-typescript-module' %}
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+## Articles
 
-### And an ordered list:
+- 2018-05-31: **TS Module: Part 1.** Best Practices w/ Declarations
+- 2018-06-01: **TS Module: Part 2.** JS Utilities for a great Developer Experience
+- 2018-06-05: **TS Module: Part 3.** Testing
+- 2018-06-06: **TS Module: Part 4.** Linting
+- 2018-06-07: **TS Module w/ Webpack: Part 1.** Setting up Webpack
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+# Typescript-React-Module
+{% include downloads.html coming_soon=true repo_url='https://github.com/Falieson/2018-typescript-react-module' %}
 
-### And a nested list:
+<!-- ## Typescript-React-Native-Module -->
+# Typescript-GraphQL-Endpoint
+{% include downloads.html coming_soon=true repo_url='https://github.com/Falieson/2018-typescript-graphql-endpoint' %}
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+# Typescript-GraphQL-React-Fullstack
+{% include downloads.html coming_soon=true repo_url='https://github.com/Falieson/2018-typescript--graphql-react-fullstack' %}
 
-### Small image
+# TBD...
 
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+1. Guiding Principles
+2. Common Packages
 
-### Large image
+# Links
+Find Falieson (aka Florian Mettetal) on...
+ {% include social.html %}
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+{% if site.feedback_url %}
+  <a href="{{ site.feedback_url }}" class="btn">Send TGR Feedback</a>
+{% endif %}

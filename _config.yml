@@ -13,22 +13,36 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: TGRStack.com
+email: falieson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Collection of repositories focused on TypeScript, React, GraphQL.
+  The repositories are written to be learned from and each is accompanied by 
+    a series of blog articles.
+  These modules are based on years of code that have been rewritten for the purposes
+    of this site and the articles.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "tgrstack.com" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
+feedback_url: https://goo.gl/forms/HwUmkW4ICG1tYel93
+twitter_username: falieson
+github_username:  falieson
+linkedin_username:  florianmettetal
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  - jemoji
+
+show_downloads: true
+repos_ts_module: https://github.com/falieson/typescript-module
+repos_ts_react_module: https://github.com/falieson/typescript-react-module
+repos_ts_gql_endpoint: https://github.com/falieson/typescript-graphql-endpoint
+repos_ts_react_gql_fullstack: https://github.com/falieson/typescript-graphql-react-fullstack
+
+# Google Analytics
+google_analytics: UA-120082347-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
