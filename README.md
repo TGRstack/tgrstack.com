@@ -10,7 +10,7 @@
 
 
 ## More info and articles at TGRStack.com
-[TGRStack.com](tgrstack.com) - Documentation, Articles
+[TGRStack.com](http://tgrstack.com/) - Documentation, Articles
 
 ## Repositories
 - [2018-typescript-module](https://github.com/Falieson/2018-typescript-module)
