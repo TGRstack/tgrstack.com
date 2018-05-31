@@ -12,7 +12,7 @@ layout: default
 [![Commitizen friendly](https://img.shields.io/badge/Commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 [![Semver friendly](https://img.shields.io/badge/SemVer-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 
-This site is the collection point for 4 projects [Falieson](www,github.com/falieson) has released or is in the process of releasing.
+This site is the collection point for 4 projects [Falieson](https://www.github.com/falieson) has released or is in the process of releasing.
 
 These projects are all starter-kits that use a common set of utilities and patterns that are designed for a pleasant and productive scalable developer experience. The core technologies for these projects are 2018's "state of the art" for javascript; these are: **_TypesScript_**, **_GraphQL_**, and **_React_**. Combined these libraries form the cornerstone for a full-stack web development experience that is hardened against bugs and trains developers of all experience-levels to write efficient code.
 
