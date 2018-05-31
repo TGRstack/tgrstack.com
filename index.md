@@ -64,15 +64,17 @@ With this list you can see how far I've gotten in my development directories. **
 I am releasing the code incrementally throughout June 2018. Each major branch comes with a tutorial explaining the major advancements so you can understand how these were built.
 
 (year-week) \<goal>
-- 2018-22: 
-- 
+- 2018-22: TS Module: Part 1
+- 2018-23: TS Module: Part 2-4
+- 2018-24: TS Module w/ Webpack: Part 1-?
 
 # Typescript-Module
 {% include downloads.html repo_url='https://github.com/Falieson/2018-typescript-module' %}
 
 ## Articles
-
-- 2018-05-31: **TS Module: Part 1.** Best Practices w/ Declarations
+{% include anchor.html name="ts-module_articles" %}
+- 2018-05-31: **TS Module: Part 1.** [MVP Setup w/ Declarations, Best Practices](https://medium.com/@falieson/ts-module-w-declarations-part-1-4-from-scratch-45e519419c2e)
+{% include anchor.html name="ts-module_articles_part-1" %}
 - 2018-06-01: **TS Module: Part 2.** JS Utilities for a great Developer Experience
 - 2018-06-05: **TS Module: Part 3.** Testing
 - 2018-06-06: **TS Module: Part 4.** Linting
