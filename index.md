@@ -75,7 +75,8 @@ I am releasing the code incrementally throughout June 2018. Each major branch co
 {% include anchor.html name="ts-module_articles" %}
 - 2018-05-31: **TS Module: Part 1.** [MVP Setup w/ Declarations, Best Practices](https://medium.com/@falieson/ts-module-w-declarations-part-1-4-from-scratch-45e519419c2e)
 {% include anchor.html name="ts-module_articles_part-1" %}
-- 2018-06-06: **TS Module: Part 2.** JS Utilities for a great Developer Experience
+- 2018-06-06: **TS Module: Part 2.** [JS Utilities for a great Developer Experience](https://medium.com/@falieson/js-utilities-for-a-grrreat-developer-experience-part-2-4-ts-module-from-scratch-d939c5bfebf2)
+{% include anchor.html name="ts-module_articles_part-2" %}
 - 2018-06-07: **TS Module: Part 3.** Testing
 - 2018-06-08: **TS Module: Part 4.** Linting
 - 2018-06-12: **TS Module w/ Webpack: Part 1.** Setting up Webpack
