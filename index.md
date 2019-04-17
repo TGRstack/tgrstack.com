@@ -89,7 +89,7 @@ I am releasing the code incrementally throughout June 2018. Each major branch co
 {% include downloads.html coming_soon=true repo_url='https://github.com/Falieson/2018-typescript-graphql-endpoint' %}
 
 # Typescript-GraphQL-React-Fullstack
-{% include downloads.html coming_soon=true repo_url='https://github.com/Falieson/2018-typescript--graphql-react-fullstack' %}
+{% include downloads.html coming_soon=true repo_url='https://github.com/Falieson/2018-typescript-graphql-react-fullstack' %}
 
 # TBD...
 
